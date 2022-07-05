@@ -8,7 +8,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #263343;
-  padding: 5px 12px;
+  padding: 0.5em 0.75em;
 }
 
 a {
@@ -17,7 +17,7 @@ a {
 }
 
 .nav__logo {
-  font-size: 24px;
+  font-size: 1.75rem;
   color: white;
 }
 
@@ -28,7 +28,7 @@ a {
 }
 
 .nav__menu li {
-  padding: 5px 12px;
+  padding: 0.5em 0.75em;
 }
 
 .nav__sns {
@@ -40,7 +40,7 @@ a {
 }
 
 .nav__sns li {
-  padding: 5px 12px;
+  padding: 0.5em 0.75em;
 }
 
 .nav__menu li:hover {
@@ -55,11 +55,11 @@ a {
   color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
   .nav {
     flex-direction: column;
     align-items: flex-start;
-    padding: 8px 24px;
+    padding: 0.5em 0.75em;
   }
 
   .nav__menu {
