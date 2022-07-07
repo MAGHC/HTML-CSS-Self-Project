@@ -1,0 +1,109 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+}
+
+header .logo i {
+  color: red;
+  padding-right: 0.5rem;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right i {
+  padding-right: 0.5em;
+}
+
+.nav-right ul {
+  display: flex;
+  padding-left: 0;
+}
+
+.vid {
+  text-align: center;
+  background-color: black;
+}
+
+.vid iframe {
+  width: 100%;
+  height: 24rem;
+  max-width: 1000px;
+}
+
+.nav-right ul li {
+  padding-right: 0.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+.describe {
+}
+
+.describe__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.moreBtn {
+  background: none;
+  border: none;
+  font-weight: 600;
+}
+
+.moreBtn:hover {
+  cursor: pointer;
+}
+
+.describe span {
+  color: #616161;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.infoChannel {
+  border: 1px solid #616161;
+  display: flex;
+  align-items: center;
+  margin: 0, 1rem;
+  justify-content: space-between;
+}
+.infoChannel__left {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoChannel img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin: 0.5rem 0.5rem;
+}
+
+.subscribeBtn {
+  background-color: red;
+  width: 4rem;
+  height: 2rem;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+}
+
+.infoItem {
+  margin: auto;
+}
