@@ -59,6 +59,10 @@ ul {
   font-weight: bold;
 }
 
+.more {
+  width: 100%;
+}
+
 .moreBtn {
   background: none;
   border: none;
@@ -146,4 +150,28 @@ ul {
 .bottom li {
   margin-bottom: 0.5rem;
   margin-right: 0.5rem;
+}
+
+.responsive {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive {
+    display: flex;
+    flex-direction: row;
+  }
+  .more {
+    width: 30%;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
 }
