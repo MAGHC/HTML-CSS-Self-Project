@@ -1,8 +1,11 @@
 header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: white;
   color: black;
+  position: sticky;
+  top: 0;
 }
 
 header .logo i {
@@ -106,4 +109,41 @@ ul {
 
 .infoItem {
   margin: auto;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.fileter__content {
+  background-color: #e0e0e0;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  padding: 0.25rem;
+}
+
+.bottom {
+  width: 100%;
+  height: 50%;
+}
+
+.bottom img {
+  width: 10rem;
+  height: 5rem;
+}
+
+.bottom__1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom__2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom li {
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
 }
